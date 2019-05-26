@@ -8,7 +8,7 @@
   "dependencies": {
     "fstream": "^1.0.12",
     "multipipe": "^2.0.3",
-    "node-protobuf": "^1.4.3",
+    "google-protobuf": "^3.7.1",
     "snappy": "^6.0.2",
     "snappy-stream": "dudleycarr/snappystream#v1.0",
     "through2": "^2.0.3",
