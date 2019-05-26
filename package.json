@@ -7,10 +7,11 @@
   },
   "dependencies": {
     "fstream": "^1.0.12",
-    "multipipe": "^2.0.3",
     "google-protobuf": "^3.7.1",
+    "multipipe": "^2.0.3",
     "snappy": "^6.0.2",
-    "snappy-stream": "dudleycarr/snappystream#v1.0",
+    "snappy-stream": "dudleycarr/snappystream#master",
+    "snappystream": "github:dudleycarr/snappystream",
     "through2": "^2.0.3",
     "unzip": "^0.1.11",
     "varint": "^5.0.0"
