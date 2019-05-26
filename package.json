@@ -13,7 +13,7 @@
     "snappy-stream": "dudleycarr/snappystream#master",
     "snappystream": "github:dudleycarr/snappystream",
     "through2": "^2.0.3",
-    "unzip": "^0.1.11",
+    "unzipper": "^0.9.15",
     "varint": "^5.0.0"
   }
 }

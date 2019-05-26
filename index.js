@@ -4,7 +4,7 @@ const os = require('os');
 const path = require('path');
 
 const fstream = require('fstream')
-const unzip = require('unzip');
+const unzipper = require('unzipper');
 
 const snappier = require('./snappier')
 const protobufStreamParser = require('./protobufStreamParser')
@@ -40,7 +40,7 @@ function keynote(inputKeyfileStream) {
       resolve(keynoteArchivesMap)
     })
 
-    inputKeyfileStream.pipe(unzip.Parse()).pipe(outputDirectoryWriter)
+    inputKeyfileStream.pipe(unzipper.Parse()).pipe(outputDirectoryWriter)
   })
 }
 
